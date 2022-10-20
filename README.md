@@ -24,4 +24,4 @@
 
 **Проект**
 
-[Посмтореть](https://NikolayBugynin/russian-travel/index.html)
+[Посмотреть](hhttps://nikolaybugynin.github.io/russian-travel/index.html)
