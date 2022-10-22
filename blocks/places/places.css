@@ -1,31 +1,24 @@
-.places {
-    max-width: 1280px;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    padding: 92px 148px;
-}
-
-@media screen and (max-width: 1024px) {
     .places {
-        max-width: 928px;
-        padding: 0 24px;
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+        padding: 64px 0 66px;
     }
-}
 
-@media screen and (max-width: 768px) {
-    .places {
-        max-width: 720px;
-        margin: 88px auto 90px;
-        padding: 0 16px;
-        gap: 73px;
+    @media screen and (min-width: 760px) {
+        .places {
+            padding: 88px 24px 90px;
+        }
     }
-}
 
-@media screen and (max-width: 700px) {
-    .places {
-        margin: 64px auto 66px;
-        padding: 0;
-        gap: 50px;
+    @media screen and (min-width: 1024px) {
+        .places {
+            padding: 92px 48px;
+        }
     }
-}
+
+    @media screen and (min-width: 1280px) {
+        .places {
+            padding: 92px 148px;
+        }
+    }

@@ -1,7 +1,7 @@
-.intro__legend {
+.intro__span-accent {
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
-    margin: 0;
 }
