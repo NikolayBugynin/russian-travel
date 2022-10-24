@@ -1,27 +1,8 @@
 .intro__list {
-    white-space: pre-line;
-    font-family: 'Inter';
+    list-style: none;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
-    margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-    .intro__list {
-        margin: 40px 24px 33px;
-
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .intro__list {
-        margin: 40px 286px 33px 48px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .intro__list {
-        margin: 40px 442px 33px 148px;
-    }
+    margin: 0;
+    padding: 0;
 }

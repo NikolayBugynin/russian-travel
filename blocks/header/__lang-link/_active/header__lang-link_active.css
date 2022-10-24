@@ -1,3 +1,8 @@
 .header__lang-link_active {
     text-decoration: underline;
+    transition: ease-in-out;
+}
+
+.header__lang-link_active:hover {
+    opacity: 60%;
 }

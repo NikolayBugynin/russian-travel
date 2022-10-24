@@ -1,5 +1,4 @@
 .place__url-heading {
-    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -13,7 +12,5 @@
 @media screen and (min-width: 1024px) {
     .place__url-heading {
         line-height: 170%;
-        margin: 0;
-        margin-bottom: 12px;
     }
 }

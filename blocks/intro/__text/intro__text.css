@@ -1,25 +1,8 @@
 .intro__text {
-    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-}
-
-@media screen and (min-width: 768px) {
-    .intro__text {
-        margin: 40px 24px 33px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .intro__text {
-        margin: 40px 286px 0 48px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .intro__text {
-        margin: 40px 442px 0 148px;
-    }
+    margin-top: 40px;
+    margin-bottom: 34px;
 }

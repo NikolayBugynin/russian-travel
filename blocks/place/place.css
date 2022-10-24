@@ -4,10 +4,10 @@
     gap: 32px;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
     .place {
         grid-template-columns: 340px 1fr;
-        grid-column-gap: 28px;
+        gap: 48px 28px;
     }
 }
 

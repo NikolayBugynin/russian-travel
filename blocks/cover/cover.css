@@ -1,8 +1,6 @@
 .cover {
-    font-family: 'Inter', Arial, sans-serif;
     color: #FFFFFF;
 }
-
 
 @media screen and (min-width: 1279px) {
     .cover {

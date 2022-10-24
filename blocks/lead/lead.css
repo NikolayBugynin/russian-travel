@@ -4,8 +4,3 @@
     margin-top: 48px;
 }
 
-@media screen and (min-width: 1023px) {
-    .lead {
-        padding: 0 48px;
-    }
-}

@@ -1,12 +1,13 @@
     .places {
-        gap: 32px;
+        gap: 50px;
         display: flex;
         flex-direction: column;
-        padding: 64px 0 66px;
+        padding-bottom: 66px;
     }
 
     @media screen and (min-width: 760px) {
         .places {
+            gap: 73px;
             padding: 88px 24px 90px;
         }
     }

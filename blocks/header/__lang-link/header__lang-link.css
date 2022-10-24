@@ -1,11 +1,15 @@
 .header__lang-link {
-    font-family: 'Inter', Arial, sans-serif;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
     text-decoration: none;
+    transition: ease-in-out;
+}
+
+.header__lang-link:hover {
+    opacity: 60%;
 }
 
 @media screen and (min-width: 720px) {

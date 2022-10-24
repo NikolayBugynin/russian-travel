@@ -1,6 +1,24 @@
 .intro {
     display: flex;
     flex-direction: column;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 64px 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .intro {
+        padding: 88px 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        padding: 92px 286px 92px 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        padding-right: 442px;
+        padding-left: 148px;
+    }
 }
