@@ -5,11 +5,11 @@
     font-size: 18px;
     line-height: 20px;
     text-decoration: none;
-    transition: ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .header__lang-link:hover {
-    opacity: 60%;
+    opacity: .6;
 }
 
 @media screen and (min-width: 720px) {
